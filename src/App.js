@@ -1,19 +1,19 @@
 import './App.css';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Wiki from './components/Wiki';
 
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <HashRouter >
         <Navbar />
         <Routes>
-          <Route path="/eden-wiki" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/wiki" element={<Wiki />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
