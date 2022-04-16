@@ -4,19 +4,28 @@ const boss = [
     level: 115,
     location: "Haven Of Oblivion",
     short: "HoO",
-    soloable: false
+    soloable: false,
+    img: "",
+    fr: "",
+    en: "",
   },
   {
-    name: "Quetzacoatl",
+    name: "Quetzalcoatl",
     level: 100,
     location: "Tempest Ridge",
-    soloable: true
+    soloable: true,
+    img: "",
+    fr: "",
+    en: "",
   },
   {
     name: "Sakuya",
     level: 115,
     location: "Abyss",
-    soloable: false
+    soloable: false,
+    img: "",
+    fr: "",
+    en: "",
   },
 ];
 

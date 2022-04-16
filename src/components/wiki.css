@@ -31,3 +31,20 @@
 .wiki-item-infos ul {
   list-style: none;
 }
+
+.wiki-item-button {
+  display:flex;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+}
+
+.wiki-item-button a {
+  color:black;
+  font-size: 14px;
+}
+
+.wiki-item-button a:hover {
+  font-size:15px;
+  color: #6587ba;
+}
