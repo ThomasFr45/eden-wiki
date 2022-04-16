@@ -36,7 +36,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="list">
-          <Link to="/">
+          <Link to="/eden-wiki">
             <span className="icon">
               <AiFillHome />
             </span>

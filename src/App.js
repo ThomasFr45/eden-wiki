@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/eden-wiki" element={<Home />} />
           <Route path="/wiki" element={<Wiki />} />
         </Routes>
       </BrowserRouter>
