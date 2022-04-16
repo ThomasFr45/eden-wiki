@@ -5,14 +5,12 @@ const Home = () => {
     <div className="home-container">
       <img src="https://i.imgur.com/gjVmRDs.jpg" alt="" className="home-image" />
       <p className="home-text">
-        Hi, welcome, you can find here some informations about racial crafting !
+        Hi, welcome on our website, we made it to regroup some informations about EE Vendetta, this way it is easier for our new players to find them !
       </p>
       <p className="home-text">
-        I hope this website can be usefull to some, if you encounter any problem
-        here or in game, feel free to send us a message using the contact page,
-        we would be happy to be of help.
+        We hope this website will be usefull to you. If you encounter any problem here or in game, feel free to contact any Cassoulet's member or 0MaouSama0, we'd be happy to be of help !
       </p>
-      <p className="home-text">If by any chance you are not interested in crafting it by yourself, you can go to the market section and directly order whatever you need. (Note that we may not have all the craftable items for now, but fret not ! We are currently working on it !).</p>
+      <p className="home-text">On this website, you'll find a market place, that's the place where we will post any item we are selling, be it racial or altar related !</p>
       <p className="home-text">Before you go ordering, note that orders can take some time to prepare, as our stocks are limited, and multiple clients may order at the same time.</p>
       <p className="home-text-last"><b>Thanks for reading, enjoy your time here !</b></p>
     </div>
