@@ -9,11 +9,11 @@ const url = () => {
   return broken[broken.length - 1];
 };
 
-const Navbar = () => {
+const Navbar = ({ setLanguage }) => {
   const handleLanguage = (e) => {
     if (e.target.value !== localStorage.getItem('language')) {
       localStorage.setItem('language', e.target.value);
-      window.location.reload();
+      setLanguage(e.target.value);
     }
   }
   return (
