@@ -1,0 +1,19 @@
+.home-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.home-image {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.home-text {
+  margin-bottom: 25px;
+}
+
+.home-text-last {
+  text-align: end;
+  margin-top: 50px;
+}
