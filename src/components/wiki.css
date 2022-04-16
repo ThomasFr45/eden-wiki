@@ -1,0 +1,33 @@
+.wiki-result {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wiki-item {
+  margin: 20px;
+  padding: 50px;
+  background-color: #574d55;
+  width: 550px;
+  height: fit-content;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.wiki-item-content {
+  display: flex;
+}
+
+.wiki-item-content img {
+  width: 125px;
+}
+
+.wiki-item-infos {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+}
+
+.wiki-item-infos ul {
+  list-style: none;
+}

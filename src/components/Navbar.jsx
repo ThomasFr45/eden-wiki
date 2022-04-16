@@ -10,6 +10,12 @@ const url = () => {
 };
 
 const Navbar = () => {
+  const handleLanguage = (e) => {
+    if (e.target.value !== localStorage.getItem('language')) {
+      localStorage.setItem('language', e.target.value);
+      window.location.reload();
+    }
+  }
   return (
     <nav>
       <ul>
@@ -51,7 +57,8 @@ const Navbar = () => {
               <AiFillSetting />
             </span>
             <span className="text">
-              <select>
+              <select onChange={(e) => handleLanguage(e)}>
+                <option value='none'>Select</option>
                 <option value="fr">Français</option>
                 <option value="en">English</option>
               </select>
