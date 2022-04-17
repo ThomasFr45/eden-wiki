@@ -5,6 +5,7 @@
 
 .shop-result {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -32,4 +33,51 @@
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
+}
+
+.shop-confirm {
+  width: 250px;
+  height: 150px;
+  background-color: rgb(221, 221, 221);
+  color: black;
+  padding: 15px;
+  overflow: hidden;
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.shop-confirm-cross:after {
+  position: relative;
+  top: -133px;
+  right: -93%;
+  font-size: 30px;
+  background: transparent;
+  display: inline-block;
+  cursor: pointer;
+  content: "\00d7"; /* This will render the 'X' */
+}
+
+.shop-cart-icon {
+  font-size: 25px;
+  position: absolute;
+  left: 85%;
+  top: 150px;
+  cursor: pointer;
+}
+
+.shop-cart-icon a {
+  text-decoration: none;
+  color: white;
+}
+
+.shop-cart-value {
+  font-size: 11px;
+  color: black;
+  position: relative;
+  left: -6px;
+  top: -15px;
+  background-color: rgb(209, 0, 0);
+  border-radius: 100px;
 }

@@ -1,0 +1,28 @@
+.cart-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cart-text {
+  width: 40%;
+}
+
+.cart-seller-container table td{
+  min-width: 150px;
+}
+
+.cart-seller-container {
+  margin-bottom: 50px;
+  border: solid 1px white;
+  padding: 15px;
+}
+
+.cart-seller-container table {
+  margin-top: 10px;
+}
+
+.cart-button {
+  height: fit-content;
+  width: fit-content;
+  padding: 3px;
+}
