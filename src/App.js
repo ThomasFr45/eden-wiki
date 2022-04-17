@@ -6,6 +6,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Wiki from './components/Wiki';
 import MyContext from "./context/MyContext";
 import { useState } from 'react';
+import Shop from './components/Shop';
 
 const App = () => {
   const [language, setLanguage] = useState(localStorage.getItem('language'));
@@ -22,6 +23,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/wiki" element={<Wiki />} />
+          <Route path="/shop" element={<Shop />} />
           <Route path="/wiki/:boss" element={<Details />} />
         </Routes>
       </HashRouter>

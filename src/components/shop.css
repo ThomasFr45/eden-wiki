@@ -1,0 +1,35 @@
+.shop-item {
+  width: fit-content;
+  margin: 50px;
+}
+
+.shop-result {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shop-item {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(78, 0, 0);
+}
+
+.shop-item-image {
+  width: 220px;
+  height: 150px;
+}
+
+.shop-item-infos {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.shop-item-infos ul {
+  list-style: none;
+}
+
+.shop-item-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
