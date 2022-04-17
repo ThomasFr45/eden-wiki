@@ -8,7 +8,7 @@
   font-family: 'Poppins', sans-serif;
 }
 :root {
-  --clr: #2c2f54;
+  --clr: rgb(31, 31, 31);
 }
 
 body {
