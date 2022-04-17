@@ -4,6 +4,27 @@
   flex-wrap: wrap;
 }
 
+.wiki-infos {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.wiki-search {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.wiki-searchbar {
+  width: 400px;
+  height: 25px;
+}
+
 .wiki-item {
   margin: 20px;
   padding: 50px;

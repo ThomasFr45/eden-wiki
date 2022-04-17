@@ -2,7 +2,7 @@ const boss = [
   {
     name: "Karen",
     level: 115,
-    location: "Haven Of Oblivion",
+    location: "Heaven Of Oblivion",
     short: "HoO",
     soloable: false,
     img: "",
