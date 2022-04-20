@@ -16,7 +16,7 @@ const Wiki = () => {
       <div className="wiki-result">
         {boss.filter(good => good.name.toLowerCase().includes(search.toLowerCase()) || good.location.toLowerCase().includes(search.toLowerCase()) || good.short?.toLowerCase().includes(search.toLowerCase())).map(one => <div key={one.name} className="wiki-item">
           <div className="wiki-item-content">
-            <img src="https://via.placeholder.com/150" alt="boss-img" />
+            <img src={one.img ? one.img : "https://via.placeholder.com/150"} alt="boss-img" />
             <div className="wiki-item-infos">
               <ul>
                 <li>{language === 'en' ? 'Name:' : 'Nom:'} {one.name}</li>

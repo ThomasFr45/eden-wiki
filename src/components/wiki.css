@@ -41,6 +41,7 @@
 
 .wiki-item-content img {
   width: 125px;
+  height: 125px;
 }
 
 .wiki-item-infos {
@@ -61,7 +62,7 @@
 }
 
 .wiki-item-button a {
-  color:black;
+  color:#c4c2c2;
   font-size: 14px;
 }
 
