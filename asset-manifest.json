@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/eden-wiki/static/css/main.d3c6a3b1.css",
-    "main.js": "/eden-wiki/static/js/main.7115e4b8.js",
+    "main.css": "/eden-wiki/static/css/main.2f9c2fc6.css",
+    "main.js": "/eden-wiki/static/js/main.81c0e40f.js",
     "index.html": "/eden-wiki/index.html",
-    "main.d3c6a3b1.css.map": "/eden-wiki/static/css/main.d3c6a3b1.css.map",
-    "main.7115e4b8.js.map": "/eden-wiki/static/js/main.7115e4b8.js.map"
+    "main.2f9c2fc6.css.map": "/eden-wiki/static/css/main.2f9c2fc6.css.map",
+    "main.81c0e40f.js.map": "/eden-wiki/static/js/main.81c0e40f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3c6a3b1.css",
-    "static/js/main.7115e4b8.js"
+    "static/css/main.2f9c2fc6.css",
+    "static/js/main.81c0e40f.js"
   ]
 }
