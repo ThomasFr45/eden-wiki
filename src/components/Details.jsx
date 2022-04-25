@@ -8,6 +8,7 @@ const Details = () => {
   return (
     <div className="details-container">
       <h3 className="details-title">{result.name}</h3>
+      <img src={result.img !== '' ? result.img : "https://via.placeholder.com/300"} alt={result.name} className="details-image" />
       <div className="details-text">
         {localStorage.getItem('language') === 'en' ? result.en.split('/n').map(one => <p key={one}>{one}</p>) : result.fr.split('/n').map(one => <p key={one}>{one}</p>)}
       </div>

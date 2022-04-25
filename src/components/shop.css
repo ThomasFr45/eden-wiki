@@ -11,7 +11,7 @@
 
 .shop-item {
   padding: 20px;
-  border-radius: 10px;
+  border-radius:30px;
   background-color: rgb(102, 0, 0);
   height: 0%;
 }
@@ -19,11 +19,12 @@
 .shop-item-image {
   width: auto;
   height: auto;
+  border-radius: 10px;
 }
 
 .shop-item-infos {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .shop-item-infos ul {
