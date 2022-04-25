@@ -27,11 +27,11 @@
 
 .wiki-item {
   margin: 20px;
-  padding: 50px;
-  background-color: rgb(78, 0, 0);
-  width: 550px;
+  padding: 40px;
+  background-color: rgb(102, 0, 0);
+  width: 500px;
   height: fit-content;
-  border-radius: 10px;
+  border-radius: 30px;
   border: 1px solid black;
 }
 
@@ -40,14 +40,14 @@
 }
 
 .wiki-item-content img {
-  width: 125px;
-  height: 125px;
+  width: 150px;
+  height: 150px;
 }
 
 .wiki-item-infos {
   display: flex;
   align-items: center;
-  margin-left: 90px;
+  margin-left: 70px;
 }
 
 .wiki-item-infos ul {

@@ -42,7 +42,7 @@ const Shop = () => {
               </ul>
             </div>
             <div className='shop-item-button'>
-              <button onClick={() => {setClicked(true); setName(one.name); setSeller(one.seller); setPrice(one.price); window.scrollTo(0, 0)}}>+</button>
+              <button onClick={() => {setClicked(true); setName(one.name); setSeller(one.seller); setPrice(one.price); window.scrollTo(0, 0)}}>{language === 'en' ? 'Add to cart' : 'Ajouter au panier'}</button>
             </div>
           </div>
         </div>))}

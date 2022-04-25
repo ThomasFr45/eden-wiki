@@ -10,14 +10,15 @@
 }
 
 .shop-item {
-  padding: 15px;
+  padding: 20px;
   border-radius: 10px;
-  background-color: rgb(78, 0, 0);
+  background-color: rgb(102, 0, 0);
+  height: 0%;
 }
 
 .shop-item-image {
-  width: 280px;
-  height: 200px;
+  width: auto;
+  height: auto;
 }
 
 .shop-item-infos {
@@ -36,7 +37,10 @@
 }
 
 .shop-item-button button {
-  padding: 2px;
+  padding: 3px;
+  border-radius: 8px;
+  background-color: rgb(221, 221, 221);
+  color: black;
 }
 
 .shop-confirm {
